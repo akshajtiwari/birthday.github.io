@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffe6e6 0%, #ffc1cc 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(255, 105, 180, 0.3);
+    width: 90%;
+    max-width: 450px;
+    margin: 20px;
+}
+
+.main-title {
+    font-family: 'Pacifico', cursive;
+    color: #ff4d6d;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+.tagline {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 5px;
+}
+
+#countdown {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background: #ff4d6d;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px 0;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.quote-box {
+    font-style: italic;
+    color: #ff758c;
+    min-height: 60px;
+    margin-bottom: 20px;
+}
+
+#surpriseBtn {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 77, 109, 0.4);
+}
+
+#surpriseBtn:hover {
+    transform: scale(1.05);
+    background: #ff1a43;
+}
+
+.hidden { display: none; }
+
+.photo-frame {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffb6c1;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#birthday-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heart {
+    font-size: 40px;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    to { transform: scale(1.2); }
+}
