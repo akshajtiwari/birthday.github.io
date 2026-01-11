@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Apoorva!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Happy Birthday, <span class="name">Apoorva</span>🌸</h1>
+        <p class="tagline">Celebrating 21 Years of Awesomeness (Est. 2005)</p>
+
+        <div class="countdown-container">
+            <h3>Countdown to your big day:</h3>
+            <div id="countdown">Loading...</div>
+        </div>
+
+        <div class="quote-box">
+            <p id="quote">"Wishing you a day as bright as your smile!"</p>
+        </div>
+
+        <button id="surpriseBtn">Click for a Surprise! ✨</button>
+
+        <div id="message" class="hidden">
+            <div class="photo-frame">
+                <img src="apoorva.jpg" alt="Apoorva" id="birthday-photo">
+            </div>
+            <h2>You are amazing!</h2>
+            <p>May your 21st year be filled with endless laughter, success, and love. Keep shining!</p>
+            <div class="heart">💖</div>
+        </div>
+
+        <audio id="birthdaySong" loop>
+            <source src="song.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
